@@ -17,11 +17,11 @@ return 0;}
         
         
           int j = 0;
-        int l = nums.length;
-        for (int i = 0; i < l; i++) {
-            int n = nums[i];
-            if (n != val) {
-                nums[j++] = n;
+        
+        for (int i = 0; i < nums.length; i++) {
+        
+            if (nums[i] != val) {
+                nums[j++] = nums[i];
               }
         }
         return j;
